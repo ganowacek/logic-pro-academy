@@ -2,11 +2,13 @@
   "name": "logic-pro-academy",
   "version": "1.0.0",
   "private": true,
+  "description": "An interactive, project-based way to learn Logic Pro by building an emotional electronic track.",
+  "license": "MIT",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "typecheck": "tsc --noEmit"
   },
   "dependencies": {
     "@types/node": "latest",
