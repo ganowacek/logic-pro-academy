@@ -1,0 +1,22 @@
+name: Lesson idea
+description: Suggest a practical production lesson or exercise.
+title: "[Lesson]: "
+labels: [enhancement, curriculum]
+body:
+  - type: input
+    id: concept
+    attributes:
+      label: Production concept
+      placeholder: Sidechain compression
+    validations:
+      required: true
+  - type: textarea
+    id: outcome
+    attributes:
+      label: What should the learner make or understand?
+    validations:
+      required: true
+  - type: textarea
+    id: exercise
+    attributes:
+      label: Suggested interactive exercise
